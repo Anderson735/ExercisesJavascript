@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="numero1" placeholder="Preguntas correctas">
+    <input type="text" id="numero2" placeholder="Preguntas incorrectas">
+    <input type="text" id="numero3" placeholder="Preguntas en blanco">
+    <input type="button" onclick="showScore(parseFloat(document.getElementById('numero1').value),
+    parseFloat(document.getElementById('numero2').value),parseFloat(document.getElementById('numero3').value))" value="Mostrar puntaje">
+    <p id="resultado"></p>
+    <script src="static/js/3.js"></script>
+</body>
+</html>

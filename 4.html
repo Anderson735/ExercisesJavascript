@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="numero1" placeholder="Partidos ganados">
+    <input type="text" id="numero2" placeholder="Partidos empatados">
+    <input type="text" id="numero3" placeholder="Partidos perdidos">
+    <input type="button" onclick="showScore(parseInt(document.getElementById('numero1').value),
+    parseInt(document.getElementById('numero2').value),parseInt(document.getElementById('numero3').value))" value="Mostrar puntaje">
+    <p id="resultado"></p>
+    <script src="static/js/4.js"></script>
+</body>
+</html>
