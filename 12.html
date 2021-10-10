@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="static/js/12.js"></script>
+    <h2>Revistas</h2>
+    <ol>
+        <li>
+            Cambio
+        </li>
+        <li>
+            Semana
+        </li>
+        <li>
+            Cromos
+        </li>
+        <li>
+            Credencial
+        </li>
+    </ol>
+    <input type="text" id="revista" placeholder="Ingrese la revista">
+    <h2>Subscripción</h2>
+    <ol>
+        <li>
+            6 meses
+        </li>
+        <li>
+            Un año
+        </li>
+    </ol>
+    <input type="text" id="subscripción" placeholder="Ingrese su subscripción">
+    <h2>Tipo de empaque</h2>
+    <ol>
+        <li>
+            Bolsa
+        </li>
+        <li>
+            Caja especial
+        </li>
+    </ol>
+    <input type="text" id="empaque" placeholder="Ingrese el tipo de empaque">
+    <br>
+    <br>
+    <input type="button" onclick="showCost(parseInt(document.getElementById('revista').value),
+    parseInt(document.getElementById('subscripción').value),parseInt(document.getElementById('empaque').value))" value="Ordenar revista">
+    
+</body>
+</html>
